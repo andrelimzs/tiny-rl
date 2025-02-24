@@ -18,7 +18,7 @@ conda env create -f environment.yaml
 
 To run an experiment and upload the results to wandb
 ```
-python sac.py --env-id HalfCheetah-v4 --track -wandb-project cleanjaxrl-test
+python sac.py --env-id HalfCheetah-v4 --track --wandb-project cleanjaxrl-test
 ```
 
 ## Benchmarks
